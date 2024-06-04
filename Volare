@@ -1,0 +1,22 @@
+Requirements
+Python 3.6+ with PIP
+macOS or GNU/Linux
+macOS
+Get Homebrew then:
+
+brew install python3
+Debian and Ubuntu
+Debian 10+ or Ubuntu 18.04+ is required.
+
+sudo apt-get update
+sudo apt-get install python3 python3-pip xz-utils
+RHEL and Derivatives
+RHEL 7+ or compatible operating system required.
+
+sudo yum install -y python3 python3-pip
+Installation and Upgrades
+# To install (or upgrade)
+python3 -m pip install --upgrade --no-cache-dir volare
+
+# To verify it works
+volare --version
