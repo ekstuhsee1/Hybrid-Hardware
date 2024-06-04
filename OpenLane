@@ -1,0 +1,4 @@
+git clone --depth 1 https://github.com/The-OpenROAD-Project/OpenLane.git
+cd OpenLane/
+make
+make test
